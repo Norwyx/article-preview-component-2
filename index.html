@@ -11,12 +11,12 @@
   <script defer src="app.js"></script>
   <link rel="stylesheet" type="text/css" href="dist/style.css">
 </head>
-<body>
-  <main class="card flex center column">
+<body class="flex center">
+  <main class="card flex column">
     <div class="card__top">
       <img src="./images/drawers.jpg" alt="Drawer decorative image" class="top__image">
     </div>
-    <div class="card__bottom">
+    <div class="card__bottom flex column">
       <h1 class="bottom__title">
         Shift the overall look and feel by adding these wonderful 
         touches to furniture in your home
@@ -26,19 +26,26 @@
         it felt slightly bare and uninviting. I’ve got some simple tips 
         to help you make any room feel complete.
       </p>
-      <div class="bottom__user">
-        <img src="./images/avatar-michelle.jpg" alt="User avatar" class="user__pfp">
-        <div class="user__info">
-          <p class="user__name">Michelle Appleton</p>
-          <p class="user__date">28 Jun 2020</p>
+      <div class="bottom__user flex center-y">
+        <div class="flex center-y">
+          <img src="./images/avatar-michelle.jpg" alt="User avatar" class="user__pfp">
+          <div class="user__info">
+            <p class="user__name">Michelle Appleton</p>
+            <p class="user__date">28 Jun 2020</p>
+          </div>
         </div>
-        <img src="./images/icon-share.svg" alt="Share icon" class="user__share-icon">
-        <div class="user__share">
+        <div class="user__share-cont">
+          <img src="./images/icon-share.svg" alt="Share icon" class="user__share-icon">
+        </div>
+        <div class="user__share hidden">
           <p class="share__text">SHARE</p>
-          <div class="share__icons">
+          <div class="share__icons flex center">
             <img src="./images/icon-facebook.svg" alt="Facebook logo" class="icons__icon icon">
             <img src="./images/icon-twitter.svg" alt="Twitter logo" class="icons__icon icon">
             <img src="./images/icon-pinterest.svg" alt="Pinterest logo" class="icons__icon icon">
+          </div>
+          <div class="user__share-active">
+            <img src="./images/icon-share.svg" alt="Share icon" class="user__share-icon-active">
           </div>
         </div>
       </div>
