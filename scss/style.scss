@@ -2,10 +2,9 @@
 @use './globals/colors' as *;
 
 body {
-    
-    
+    background-color: $light-grayish-blue;
     min-height: 100vh;
-    font-size: .9375rem;
+    font-size: .8125rem;
     font-weight: 400;
     font-family: 'Manrope', sans-serif;
 }
