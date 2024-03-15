@@ -4,8 +4,10 @@ A responsive article preview component. This page was built as a front-end proje
 
 - [Page](https://norwyx.github.io/article-preview-component-2/) - Final result of the project
 
-![Interactive Rating Component](./images/final-results-default.png)
-![Interactive Rating Component](./images/final-results-success.png)
+![Interactive Rating Component](./images/final-results-desktop.png)
+![Interactive Rating Component](./images/final-results-desktop-active.png)
+![Interactive Rating Component](./images/final-results-mobile.png)
+![Interactive Rating Component](./images/final-results-mobile-active.png)
 
 
 
