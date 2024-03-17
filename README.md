@@ -9,7 +9,7 @@ A responsive article preview component. This page was built as a front-end proje
 ![Interactive Rating Component](./images/final-results-mobile.png)
 ![Interactive Rating Component](./images/final-results-mobile-active.png)
 
-
+.
 
 ## Built with
 - [HTML5](https://developer.mozilla.org/es/docs/Web/HTML)
